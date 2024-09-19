@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E&T Escrow and Trust</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Fondo negro */
+            color: #DAA520; /* Dorado oscuro */
+        }
+
+        header {
+            background-color: #DAA520; /* Fondo dorado oscuro */
+            color: #000; /* Texto negro */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header .logo {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 20px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #000; /* Enlaces negros */
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        #hero {
+            background-color: #000; /* Fondo negro */
+            color: #DAA520; /* Texto dorado oscuro */
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        #hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        #hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #DAA520; /* Botón dorado oscuro */
+            color: #000; /* Texto negro */
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #b8860b; /* Cambia el color del botón al pasar el mouse */
+        }
+
+        #services, #about, #contact {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .service-item {
+            margin: 20px 0;
+        }
+
+        #contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        #contact-form label {
+            margin-bottom: 5px;
+        }
+
+        #contact-form input, #contact-form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #DAA520; /* Borde dorado oscuro */
+            border-radius: 5px;
+            background-color: #333; /* Fondo de los inputs en negro */
+            color: #DAA520; /* Texto en dorado oscuro */
+        }
+
+        #contact-form button {
+            padding: 15px;
+            background-color: #DAA520; /* Fondo dorado oscuro */
+            color: #000; /* Texto negro */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        #contact-form button:hover {
+            background-color: #b8860b; /* Cambia el color del botón al pasar el mouse */
+        }
+
+        footer {
+            background-color: #000; /* Fondo negro */
+            color: #DAA520; /* Texto dorado oscuro */
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">E&T Escrow and Trust</div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to E&T Escrow and Trust</h1>
+        <p>Your trusted partner in secure real estate transactions.</p>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Escrow Services</h3>
+            <p>We provide reliable escrow services to ensure secure and transparent transactions.</p>
+        </div>
+        <div class="service-item">
+            <h3>Trust Management</h3>
+            <p>Our experienced team manages your trust accounts with professionalism and care.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>E&T Escrow and Trust is dedicated to delivering secure and efficient escrow and trust services. With years of experience, we are committed to protecting our clients' interests at every step.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E&T Escrow and Trust. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
